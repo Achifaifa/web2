@@ -3,14 +3,20 @@
 @font-face {font-family: 'nagomi';src: url('./NagomiGokubosoGothic.otf');}
 a:link {color:#ddd;}
 a:visited {color:#666;}
+@media (orientation: portrait) {
+  #container{width:80%;}
+}
+@media (orientation: landscape) {
+  #container{width:70%;}
+}
 </style>
-<body bgcolor="#00" text="white" style='font-family:"nagomi"'>
+<body bgcolor="#00" text="white" style='font-family:"nagomi";overflow:hidden;'>
 <center>
-  <div style="display:table;height:100%">
+  <div id="container" style="display:table;height:100%;margin-top:-5%">
   <div style="vertical-align:middle;display:table-cell;text-align:center">
-  <p style="font-size:70px;margin-bottom:0">愛智重工<br>
-  <p style="font-size:27px;margin-top:-3%">Achi Heavy Industries<br>
-  <p style="font-size:20px;">
+  <p style="font-size:17vw;margin-bottom:0">愛智重工<br>
+  <p style="font-size:7vw;margin-top:-3%">Achi Heavy Industries<br>
+  <p style="font-size:5vw;">
     <a href="./whois.html">Whois</a> -
     <a href="./projects.html">Projects</a> -
     <a href="./work.html">Work</a>

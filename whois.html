@@ -3,10 +3,16 @@
 @font-face {font-family: 'nagomi';src: url('./NagomiGokubosoGothic.otf');}
 a:link {color:#ddd;}    
 a:visited {color:#666;}
+@media (orientation: portrait) {
+  #container{width:80%;}
+}
+@media (orientation: landscape) {
+  #container{width:40%;}
+}
 </style>
 <body bgcolor="#00" text="white" style='font-family:"nagomi"'>
 <center>
-  <div style="display:table;height:100%;width:40%">
+  <div id="container" style="display:table;height:100%:">
   <div style="vertical-align:middle;display:table-cell;text-align:center;">
 
   <h1>Whois</h1>
